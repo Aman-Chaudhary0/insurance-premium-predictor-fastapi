@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Dict
 
+# Define the PredictionResponse model to structure the response from the prediction API
 class PredictionResponse(BaseModel):
     predicted_category: str = Field(
         ...,

@@ -20,6 +20,7 @@ def health_check():
         'model_loaded': model is not None
     }
 
+# Define the /predict endpoint to handle POST requests for insurance premium predictions
 @app.post('/predict', response_model=PredictionResponse)
 def predict_premium(data: UserInput):
 

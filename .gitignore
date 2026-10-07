@@ -1,1 +1,6 @@
-myenv
+# add all the files and directories you want to ignore in this .gitignore file
+.kilo
+.venv
+.vscode
+__pycache__
+.venv312
